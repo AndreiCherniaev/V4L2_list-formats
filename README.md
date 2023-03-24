@@ -2,6 +2,7 @@
  How get camera's list available capture formats using UVC driver in Linux. More details here https://stackoverflow.com/questions/22563827/list-available-capture-formats
  
 # Build & Install
+I use conan for my project. So, first of all you should install conan itself.
 ## Install conan
 
 pip install conan --pre --user\
