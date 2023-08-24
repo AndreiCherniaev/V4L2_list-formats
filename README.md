@@ -1,5 +1,5 @@
 # V4L2_list-formats
- How get camera's list available capture formats using UVC driver in Linux. More details here https://stackoverflow.com/questions/22563827/list-available-capture-formats
+ How get camera's list available capture formats using UVC driver in Linux. In Linux system zero connect camera will have name /dev/video0 and this project works with it. If you want get information from first camera, set another number. Note that some cameras makes two Linux devices per camera. In [this case](https://unix.stackexchange.com/a/539573/481341) you are interesting in number 0, 2, 4, 6, ... More details about code [here](https://stackoverflow.com/questions/22563827/list-available-capture-formats)
  
 # Build & Install
 I use conan for my project. So, first of all you should install conan itself.
